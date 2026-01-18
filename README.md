@@ -48,19 +48,19 @@ Now, you should have a pretty smooth keycap, with touch ID!
 
 
 *Dremel Bit used for keycap carving*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/2a.jpg)
 
 *Touch ID sensor after dremeling*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/2b.jpg)
 
 *Keycap After drilling*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/2c.jpg)
 
 *Test Keycap without carving (to show thicker plastic)*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](2d.jpg)
 
 *Final Keycap, after carving*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](2e.jpg)
 ## Step 3: Prepping your Keyswitch for cable routing
 
 This specific mod removes the actuation of the switch in question, for fear of wearing on the fragile ribbon cable. It does retain the power button included on the Touch ID switch, however.
@@ -75,10 +75,10 @@ This specific mod removes the actuation of the switch in question, for fear of w
 Now, you have a semi hollow switch. If done correctly, you should be able to thread the Touch ID ribbon cable directly through it. Now, we need to connect the keycap to the switch, before attaching the whole assembly to your keyboard.
 
 *Parts Needed from switch*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/3a.jpg)
 
 *Parts After carving & glueing*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/3b.jpg)
 ## Step 4: Prepping the key assembly
 
 First off, print the below file. You may need to adjust the stem length.
@@ -97,15 +97,15 @@ You are now done with the hard part! Now, all we need to do is wire this up in t
 
 
 *Touch ID with Bracket (My printer did NOT like printing the bracket with supports)*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/4a.jpg)
 
 *Assembled Key Switch*
-![This is alt text for the image](images/my-photo.png)
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/4b.jpg)
+![This is alt text for the image](images/4c.jpg)
 
 *Fully Assembled Key Assembly (Interior of keycap looks different, was a different revision of the project)*
-![This is alt text for the image](images/my-photo.png)
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/4d.jpg)
+![This is alt text for the image](images/4e.jpg)
 ## Step 5: Preparing the keyboard
 
 - First off, remove the keyswitch you want to replace with Touch ID. *My key changes lighting, so I want to keep that intact. As such, I will be wiring that switch to the neighboring switch to retain functionality, but this is optional.*
@@ -113,10 +113,10 @@ You are now done with the hard part! Now, all we need to do is wire this up in t
 - Once the key assembly is installed, carefully hook everything up, and test that it still works.
 
 *Key switches removed*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/5a.jpg)
 
 *Touch ID ribbon cable fitted through, yellow bodge wire for my light key*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/5b.jpg)
 ## Step 6: Fitting components into the keyboard
 
 Now, put everything together! Ensure that the motherboard (and optionally, battery) will fit into the keyboard, and ensure that you insulate everything, so as to not cause shorts. You may need to cut off some keyboard supports if they get in the way.
@@ -125,7 +125,7 @@ At this point, you should be mostly done if you do not mind having a second char
 
 
 *Keyboard with kapton tape, and magic keyboard components inside (minus battery)*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/my-photo.jpg)
 ## Step 7: Merging chargers
 
 This step has two options. Either solder the power to the keyboard battery (if applicable), or solder the power directly from the USB port power lines. All we are doing is stealing power from the main keyboard to power the Touch ID sensor.
@@ -141,7 +141,7 @@ Now, the tricky part. Getting the correct voltages to your data pins. This can b
 Then, simply wire everything to your lightning header, and plug it into the magic keyboard port! At this point, it should work great, regardless of if you removed or kept the magic keyboard battery.
 
 *Battery, with new wires soldered onto the pads.*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/7a.jpg)
 ## Step 8: Resistor Layout
 
 Huge thanks to Lila Prebynski for her help on the resistor layout! We ended up using 3 1kΩ resistors, a 4.7kΩ resistor, and a 1.5kΩ resistor. It is worth noting that the 1.5kΩ is less common in variety packs of resistors!
@@ -154,16 +154,16 @@ Below, I will link the bracket I made for this, but a piece of cardstock with ho
 https://www.printables.com/model/1561638-lightning-5v-charging-setup
 
 *Electrical Diagram (Resistor Values are 1/10 actual)*
-![This is alt text for the image](images/my-photo.png)
-
-*Cardboard vs Printed bracket*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/8a.jpg)
 
 *Drawn Diagram*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/8b.jpg)
 
 *Finished Print*
-![This is alt text for the image](images/my-photo.png)
+![This is alt text for the image](images/8c.jpg)
+
+*Cardboard vs Printed bracket*
+![This is alt text for the image](images/8d.jpg)
 ## Complete!
 
 Now, you should be all set! Make sure to test everything BEFORE closing up your keyboard fully, to ensure that it all works. If you have any notes, achieve this project by doing stuff different, or have questions, ask me! I will keep an eye out, and add it to an FAQ section.
