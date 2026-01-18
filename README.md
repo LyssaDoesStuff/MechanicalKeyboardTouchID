@@ -125,7 +125,7 @@ At this point, you should be mostly done if you do not mind having a second char
 
 
 *Keyboard with kapton tape, and magic keyboard components inside (minus battery)*
-![This is alt text for the image](images/7a.jpg)
+![This is alt text for the image](images/6a.jpg)
 ## Step 7: Merging chargers
 
 This step has two options. Either solder the power to the keyboard battery (if applicable), or solder the power directly from the USB port power lines. All we are doing is stealing power from the main keyboard to power the Touch ID sensor.
