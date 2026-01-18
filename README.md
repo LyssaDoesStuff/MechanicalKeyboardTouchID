@@ -57,10 +57,10 @@ Now, you should have a pretty smooth keycap, with touch ID!
 ![This is alt text for the image](images/2c.jpg)
 
 *Test Keycap without carving (to show thicker plastic)*
-![This is alt text for the image](2d.jpg)
+![This is alt text for the image](images/2d.jpg)
 
 *Final Keycap, after carving*
-![This is alt text for the image](2e.jpg)
+![This is alt text for the image](images/2e.jpg)
 ## Step 3: Prepping your Keyswitch for cable routing
 
 This specific mod removes the actuation of the switch in question, for fear of wearing on the fragile ribbon cable. It does retain the power button included on the Touch ID switch, however.
