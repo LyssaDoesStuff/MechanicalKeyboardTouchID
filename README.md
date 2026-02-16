@@ -12,13 +12,14 @@ https://www.reddit.com/r/MechanicalKeyboards/comments/1j5wqe6/touchid_mechanical
 Finally, this is intended as a non destructive mod. All this means is that the both keyboards could be restored to normal without any functional damage. The only exception to this is the keycap and switch, which are both really cheap replacements.
 
 My Tools & Hardware:
+- 3D Printer (Check your local library if you do not have one)
 - Donor Keyboard: Magic Keyboard with Touch ID, Lightning, Smaller layout
 - Mechanical Keyboard: Keychron K1 SE (Non Hotswap, painted white)
 - Dremel: Fantiks F2 Master Mini
 - Drill Bits: Tiny one from the Fantiks dremel for a pilot hole, and a 4/10” drill bit for the main hole
 - Lightning Male breakout, from Aliexpress (Sub for USBC if applicable to your donor board)
 - 3.7 to 5V Step up board
-- Resistors (3 1Ω, 1 4.7kΩ, 1 1.5kΩ)
+- Resistors (3 1kΩ, 1 4.7kΩ, 1 1.5kΩ)
 - Kapton tape
 
 It is worth noting that I am doing this on a slim mechanical keyboard, so some steps may vary slightly for you. This keyboard does also have a battery and bluetooth (I use it wired), which will come into play when wiring.
@@ -31,8 +32,9 @@ https://gist.github.com/KhaosT/1406a6b6bea38f59e059c2afcb39d545
 You will need the following parts from your magic keyboard:
 
 - Logic Board
-- Battery (Optional)
+- Battery (Optional, I did not use)
 - Touch ID sensor
+- Touch ID ribbon cable
 - Lightning or USBC port
 
 It is worth noting that you must remove the plastic key cover from the sensor. This can be done by simply prying the covering off of the metal frame, but be careful (if you want to keep the old keyboard in good shape), the plastic breaks easily. This cover is not needed for our conversion, so it's not important.
@@ -84,16 +86,16 @@ Now, you have a semi hollow switch. If done correctly, you should be able to thr
 First off, print the below file. You may need to adjust the stem length.
 https://www.printables.com/model/1561591-touch-id-sensor-keycap-plate-stem
 
-*(remix of Calvins plate, made to fit in a keycap https://www.printables.com/model/355924-clickable-touch-id-box-tkl-board-wired/files)*
+*(remix of Calvins plate, made to fit in a keycap. Original file in references section doc)*
 
-Then, put the C-Plate on the button end of the touch ID assembly, you may need to dremel out the holes depending on printer tolerances.
+Then, put the C-Plate on the button end of the touch ID assembly, you may need to dremel out the mounting holes depending on printer tolerances.
 
-Finally, file down the keycap stem to match the height of a normal keycap when assembled. Then, use minor amounts of hot glue to fasten the Touch ID sensor to the keycap. Ensure that hot glue is only used on the solid sides of the plate, doing all 4 sides will remove the button click.
+Finally, file down the keycap stem to match the height of a normal keycap when assembled. Then, use minor amounts of hot glue to fasten the Touch ID sensor to the keycap. Ensure that hot glue is only used on the two solid sides of the plate, doing all 4 sides will remove the button click. (see below images)
 Now, you are done assembling your keycap Touch ID assembly.
 
 Now, thread the ribbon cable through the switch assembly, and attach the keycap to the keyswitch.
 
-You are now done with the hard part! Now, all we need to do is wire this up in the keyboard.
+You are done with the hard part! Now, all we need to do is wire this up in the keyboard.
 
 
 *Touch ID with Bracket (My printer did NOT like printing the bracket with supports)*
@@ -124,7 +126,7 @@ Now, put everything together! Ensure that the motherboard (and optionally, batte
 At this point, you should be mostly done if you do not mind having a second charge port! If that is the case, just drill a hole somewhere, and mount the lightning connector from the magic keyboard to it. I, however, want a more seamless experience, with only one charge port.
 
 
-*Keyboard with kapton tape, and magic keyboard components inside (minus battery)*
+*Keyboard with kapton tape, and magic keyboard components inside (minus lightning port)*
 ![This is alt text for the image](images/6a.JPG)
 ## Step 7: Merging chargers
 
