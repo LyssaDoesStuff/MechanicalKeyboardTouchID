@@ -125,7 +125,7 @@ At this point, you should be mostly done if you do not mind having a second char
 
 
 *Keyboard with kapton tape, and magic keyboard components inside (minus battery)*
-![This is alt text for the image](images/6a.jpg)
+![This is alt text for the image](images/6a.JPG)
 ## Step 7: Merging chargers
 
 This step has two options. Either solder the power to the keyboard battery (if applicable), or solder the power directly from the USB port power lines. All we are doing is stealing power from the main keyboard to power the Touch ID sensor.
@@ -142,6 +142,12 @@ Then, simply wire everything to your lightning header, and plug it into the magi
 
 *Battery, with new wires soldered onto the pads.*
 ![This is alt text for the image](images/7a.jpg)
+
+*Step-up adapter and resistors wired up.*
+![This is alt text for the image](images/7b.JPG)
+
+*Fully wired project. (Should look like this before you close the keyboard case)*
+![This is alt text for the image](images/7c.JPG)
 ## Step 8: Resistor Layout
 
 Huge thanks to Lila Prebynski for her help on the resistor layout! We ended up using 3 1kΩ resistors, a 4.7kΩ resistor, and a 1.5kΩ resistor. It is worth noting that the 1.5kΩ is less common in variety packs of resistors!
@@ -167,6 +173,9 @@ https://www.printables.com/model/1561638-lightning-5v-charging-setup
 ## Complete!
 
 Now, you should be all set! Make sure to test everything BEFORE closing up your keyboard fully, to ensure that it all works. If you have any notes, achieve this project by doing stuff different, or have questions, ask me! I will keep an eye out, and add it to an FAQ section.
+
+*Completed Project*
+![This is alt text for the image](images/Ca.JPG)
 ## Acknowledgements
 
  - [Khaos Tian Magic Keyboard Teardown](https://gist.github.com/KhaosT/1406a6b6bea38f59e059c2afcb39d545)
